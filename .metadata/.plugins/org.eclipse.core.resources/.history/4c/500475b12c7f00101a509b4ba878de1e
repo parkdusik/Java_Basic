@@ -1,0 +1,11 @@
+package ch03.quiz_array;
+
+public class ch03_Quiz_06배열문제_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String [] c= new String[] {}; 
+	}
+
+}

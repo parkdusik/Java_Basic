@@ -1,0 +1,18 @@
+package ch05.object;
+
+public class Exam68 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Saram s=new Saram();
+		
+		//.,함수 접근
+		s.name="홍길동";
+		s.address="서울시 강남구 역삼1동";
+		s.phoneNumber="010-123-1234";
+		s.juminBunho="12345-1234567";
+		s.age=27;
+	}
+
+}

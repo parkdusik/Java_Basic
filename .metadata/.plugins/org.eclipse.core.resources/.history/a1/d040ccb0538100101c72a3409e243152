@@ -1,0 +1,9 @@
+package ch05.object;
+
+public class Pay {
+	public String name;
+	public int bongbong;
+	public int tex;
+	public int silsu;
+
+}

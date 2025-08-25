@@ -1,0 +1,26 @@
+package ch05.object;
+
+public class Exam63 {//실행 클래스
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person a=new Person();
+		a.name="홍길동";
+		a.age=23;
+		a.ki=182.2f;
+		
+		System.out.println(a.name);
+		System.out.println(a.age);
+		System.out.println(a.ki);
+		
+		Person b=new Person();
+		b.name="김길동";
+		b.age=33;
+		b.ki=177.7f;
+		
+		System.out.println(b.name);
+		System.out.println(b.age);
+		System.out.println(b.ki);
+		
+	}
+}

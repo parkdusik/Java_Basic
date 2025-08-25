@@ -1,0 +1,31 @@
+package ch05.object;
+
+/**
+ * @날짜:2025. 8. 25.
+ * @작성자:박두식
+ * @설명: 생성자 중복
+ */
+
+class TestC{
+	private int x;
+	private int y;
+	
+	public TestC() {
+		x=10;
+		y=20;
+	}
+	
+	public TestC(int x) {
+		this.x=x;
+		this.y=55;
+	}
+}
+
+public class Exam73 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

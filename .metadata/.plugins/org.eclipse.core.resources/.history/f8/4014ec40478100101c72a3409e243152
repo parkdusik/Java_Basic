@@ -1,0 +1,33 @@
+package ch03.quiz_array;
+
+/*
+10. '일', '월', '화', '수', '목', '금', '토' 로 초기화된 문자열 배열 day를 선언하고 사용자로부터
+정수를 입력받아 7(배열 day 크기)로 나눈 나머지를 인텍스로 하여 배열 day에 저장된 문자를
+출력하라.
+  */
+
+import java.util.Scanner;
+
+
+public class ch03_Quiz_06배열문제_11 {
+
+	 public static void main(String[] args) {
+	      // TODO Auto-generated method stub
+	   
+	   Scanner sc=new Scanner(System.in);
+	   
+	   char[] day = {'일','월','화','수','목','금','토'};
+	   
+	   System.out.println("정수를 입력해주세요");
+	   int num = sc.nextInt();
+	   
+	   int a=(day.length)%num;
+	   if(!(a<7)) {
+	      System.out.println("다른 정수를 입력해주세요");
+	   }else {
+	      System.out.println(day[a]);
+	   }
+	   
+	   sc.close();   
+   }
+}

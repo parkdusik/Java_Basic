@@ -1,0 +1,19 @@
+package ch02.quiz_if;
+
+public class ch02_Quiz_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String position="과장";
+		String salary="";
+		
+		
+		switch(position) {
+		case "부장":
+			salary = "700만원"
+		}
+		
+	}
+
+}

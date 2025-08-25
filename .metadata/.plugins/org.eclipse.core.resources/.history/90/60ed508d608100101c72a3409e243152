@@ -1,0 +1,19 @@
+package ch05.object;
+
+public class MyData {
+	private int x; //10;
+	private int y; //5;
+
+	public void setData(int a, int b) { //a=10, b=5
+		x=a;
+		y=b;
+	}
+	
+	public void disp() {
+		System.out.println(x+"\t"+y);
+	}
+	
+	public void aa() {};
+	public void bb() {};
+	public void cc() {};
+}

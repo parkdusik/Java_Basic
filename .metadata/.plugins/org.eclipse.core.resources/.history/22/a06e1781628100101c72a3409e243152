@@ -1,0 +1,23 @@
+package ch05.object;
+
+public class MyData {
+	private int x; //10;
+	private int y; //5;
+
+	public void setData(int x, int y) { //a=10, b=5
+		//내부에 매개변수 x, y가 있으므로 외부int x,y를 참조하지 않음.
+		//블록 내부의 변수가 우선임.
+		x=x;
+		y=y;
+		System.out.println(x+"\t"+y);
+	}
+	
+	public void disp() {
+		//블럭 내부에 x, y변수가 없으므로 블럭 밖의 x,y인 private int x,y 참조
+		System.out.println(x+"\t"+y);
+	}
+	
+	public void aa() {}; //x,y
+	public void bb() {}; //x,y
+	public void cc() {}; //x,y
+}

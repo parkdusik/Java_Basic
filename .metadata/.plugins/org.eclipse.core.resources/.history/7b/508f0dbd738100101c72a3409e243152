@@ -1,0 +1,24 @@
+package ch05.object;
+
+/**
+ * @날짜:2025. 8. 25.
+ * @작성자:박두식
+ * @설명:생성자
+ */
+class TestA{
+	
+}
+
+class TestB{
+	
+}
+
+
+public class Exam70 { //실행 클래스만 public =>1개의 Java파일에 여러개의 클래스를 사용할때.
+
+	public static void main(String[] args) {
+		TestA a=new TestA(); // a객체 생성되었다. 내부적으로 생성자 생김
+		TestB b=new TestB(); // b객체 생성되었다. 내부적으로 생성자 생김
+	}
+
+}

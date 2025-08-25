@@ -1,0 +1,17 @@
+package ch02.quiz_if;
+
+public class ch02_Quiz_03조건문문제_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int num=0;
+		int sum=0;
+		int total=0;
+		
+		for(int i=0; i<=100; i++) {
+			sum=num
+		}
+	}
+
+}

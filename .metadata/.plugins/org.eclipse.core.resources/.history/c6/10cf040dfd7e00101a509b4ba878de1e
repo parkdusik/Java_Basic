@@ -1,0 +1,19 @@
+package ch04.function;
+
+/**
+ * @날짜:2025. 8. 22.
+ * @작성자:박두식
+ * @설명: 함수 - call by value
+ * 
+ */
+import java.util.Scanner;
+
+public class Exam53 {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(system.in);
+		
+		
+	sc.close();
+	}
+}

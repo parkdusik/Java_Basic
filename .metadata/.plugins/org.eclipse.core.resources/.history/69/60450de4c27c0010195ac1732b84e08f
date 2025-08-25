@@ -1,0 +1,29 @@
+package ch02.control;
+/*
+ * 제어문 - 조건문(if, switch ~case) / 반복문(for, while, do~while)
+ * 		- 조건문 Switch ~case
+ * */
+
+public class Exam19 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name="홍길동";
+		String gread="BB";
+		String memberLevel="";
+		
+		switch(greed) {
+		case "AA": case"aa": //if(greed="AA" || greed=="aa"){}
+			memberLevel="정회원";
+			break;
+		case "BB": case"bb":
+			memberLevel="준회원";
+			break;
+		cas "CC": case "cc":
+			memberLevel="손님";
+			break;
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+package ch04.function;
+
+/**
+ * @날짜:2025. 8. 21.
+ * @작성자:박두식
+ * @설명: 
+ * 
+ */
+
+import java.util.Scanner;
+
+public class Exam48 {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+		
+		
+	}
+}

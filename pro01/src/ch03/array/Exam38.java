@@ -1,0 +1,41 @@
+package ch03.array;
+
+/**
+ * @날짜:2025. 8. 21.
+ * @작성자:박두식
+ * @설명:배열
+ * 			1차원, 2차원, 다차원
+ * 			변수는 한개의 데이터만 저장하지만 배열은 같은 타입의 데이터를 연속된 공간에 저장
+ * 			각 데이터의 인덱스를 부여해 놓은 자료구조
+ * 
+ * 			규칙: 변수, 배열, 함수명 >>소문자로 시작함. int a=10;
+ * 								두 단어 이상인 경우에는 바드시 절 바뀔때 대문자 시작. int appleValue=10;
+ *		 				  클래스명>>대문자로 시작한다. Exam37, Scanner, System
+ * 								두 단어 이상인 경우에는 바드시 절 바뀔때 대문자 시작
+ */
+import java.util.Scanner;
+
+public class Exam38 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//배열 선언
+		int[] array=new int[5]; // [0]~[4] 20byte; 배열 한개당 4byte?
+		for(int i=0; i<array.length;i++) {
+			System.out.println(array[i]);
+		}
+		//배열 입력
+		Scanner sc=new Scanner(System.in);
+		for(int i=0; i<array.length;i++) {
+			System.out.println("수를 입력하세요");
+			array[i]=sc.nextInt();
+		}
+		//배열 출력
+		for(int i=0; i<array.length;i++) {
+			if(array[i]>10&&array[i]<20) {
+				System.out.println(array[i]);
+			}
+		}
+		sc.close();
+	}
+}

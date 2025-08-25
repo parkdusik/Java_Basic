@@ -1,0 +1,14 @@
+package ch02.quiz_if;
+/*
+ 7. 세 정수를 입력 받아 10이하의 수만을 더하여 출력하는 프로그램을 작성하세요. (if문)
+ */
+
+import java.until.Scanner;
+
+public class ch02_Quiz_05제어문문제_07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,28 @@
+package ch05.object;
+
+/**
+ * @날짜:2025. 8. 25.
+ * @작성자:박두식
+ * @설명: 생성자로 데이터 전달
+ */
+
+class BirthdayA{
+	private int year;
+	private int month;
+	private int day;
+	private String name;
+	
+	//함수, 생성자
+	public BirthdayA(int year, int month, int day, String name) {
+		this.year=year;
+		this.month=month;
+	}
+}
+public class Exam71 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

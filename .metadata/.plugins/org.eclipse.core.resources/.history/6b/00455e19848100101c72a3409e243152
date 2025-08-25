@@ -1,0 +1,26 @@
+package ch05.object;
+
+public class Test {
+	private int id;
+	private String name;
+	private String phone;
+	private int age;
+	private float ki;
+	
+	public Test() {};
+	
+	public Test(int id, String name, String phone, int age, float ki) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.phone = phone;
+		this.age = age;
+		this.ki = ki;
+	}
+	
+	
+	
+	//기본 생성자 하나, 매개변수가
+	
+	//set/get 함수
+}

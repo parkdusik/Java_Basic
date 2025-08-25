@@ -1,0 +1,13 @@
+package ch03.quiz_array;
+
+import java.util.Scanner;
+
+public class ch03_Quiz_06배열문제_09 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+
+	
+	}
+}

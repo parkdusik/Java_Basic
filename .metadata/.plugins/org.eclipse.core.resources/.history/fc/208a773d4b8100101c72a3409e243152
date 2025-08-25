@@ -1,0 +1,9 @@
+package ch05.object;
+
+public class Sung {
+	public String name;
+	public int kor;
+	public int eng;
+	public int mat;
+
+}

@@ -1,0 +1,42 @@
+package ch02.quiz_if;
+/*
+ 7. 세 정수를 입력 받아 10이하의 수만을 더하여 출력하는 프로그램을 작성하세요. (if문)
+ */
+
+import java.util.Scanner;
+
+public class ch02_Quiz_05제어문문제_07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	Scanner sc=new Scanner(System.in);
+	
+	System.out.println("숫자 3개를 입력해주세요. 숫자 입력시 모두 더해서 출력합니다."+"\n"+"(10이하의 정수가 아닌 숫자는 더해지지 않습니다.)");
+	System.out.println("첫번째 숫자를 입력해주세요"+"\n"+"입력: ");
+	int num1=sc.nextInt();
+	System.out.println("두번째 숫자를 입력해주세요"+"\n"+"입력: ");
+	int num2=sc.nextInt();
+	System.out.println("세번째 숫자를 입력해주세요"+"\n"+"입력: ");
+	int num3=sc.nextInt();
+	
+	if(!(num1>0)||!(num1<=10)) {
+		num1=0;
+	}
+	
+	if(!(num2>0)||!(num2<=10)) {
+		num2=0;
+	}
+	
+	if(!(num3>0)||!(num3<=10)) {
+		num3=0;
+	}
+
+
+	
+		
+		
+	
+	sc.close();
+	}
+	
+}

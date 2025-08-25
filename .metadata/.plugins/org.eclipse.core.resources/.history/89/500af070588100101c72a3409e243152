@@ -1,0 +1,17 @@
+package ch05.object;
+
+public class Data {
+	public int x;
+	public int y;
+	
+	//setter
+	public void setX(int a) {
+		x=a;
+	}
+
+	//getter
+	public void setY(int b) {
+		y=b;
+	}
+
+}

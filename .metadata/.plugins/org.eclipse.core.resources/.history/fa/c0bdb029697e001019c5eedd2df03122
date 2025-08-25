@@ -1,0 +1,34 @@
+package ch02.quiz_if;
+/*
+ 8. 영문자 하나를 입력 받아서 대소문자로 변환하세요. 
+ */
+
+import java.util.Scanner;
+
+public class ch02_Quiz_05제어문문제_08 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc=new Scanner(System.in);
+	
+		System.out.println("영문자 대/소문자 변환기입니다."+"\n"+"영문자 하나를 입력해주세요."+"\n"+"입력:");
+		String str=sc.next();
+		char eng=str.charAt(0);
+		
+		if(eng>='A'&&eng<='Z') {
+			eng+=32;
+			System.out.println(eng);
+		}else if(eng>='a'&&eng<='z') {
+			eng-=32;
+			System.out.println(eng);
+		}else if(!(eng>='A'&&eng<='Z')||!(eng>='a'&&eng<='z')){
+			System.out.println("'"+eng+"'"+"은 영문자가 아닙니다.");
+		}
+		
+		
+		
+		sc.close();
+	}
+	
+}

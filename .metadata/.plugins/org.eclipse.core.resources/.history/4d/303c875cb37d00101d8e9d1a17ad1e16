@@ -1,0 +1,16 @@
+package ch02.quiz_if;
+
+public class ch02_Quiz_04반복문문제_15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		for(int i=0;i<=6;i++) {
+			for(int j=0;j<=6;j++) {
+				if(i+j==6) {
+					System.print(i+"+"+(int)j+"="+)
+				}
+			}
+		}
+	}
+}

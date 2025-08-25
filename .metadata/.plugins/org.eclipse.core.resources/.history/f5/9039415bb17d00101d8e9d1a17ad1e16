@@ -1,0 +1,10 @@
+package ch02.quiz_if;
+
+public class ch02_Quiz_04반복문문제_13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int sum=0;
+	}
+}

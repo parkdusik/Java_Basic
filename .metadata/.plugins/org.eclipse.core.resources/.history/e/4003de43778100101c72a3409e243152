@@ -1,0 +1,20 @@
+package ch05.object;
+
+/**
+ * @날짜:2025. 8. 25.
+ * @작성자:박두식
+ * @설명: 생성자로 데이터 전달
+ */
+
+class BirthdayA{
+	
+	
+}
+public class Exam71 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

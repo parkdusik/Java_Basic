@@ -1,0 +1,25 @@
+package ch02.control;
+/*
+ * 제어문 - 조건문(if, swich ~case) / 반복문(for, while, do~while)
+ * 		- 조건문(if)
+ * 		- if(조건식_1){
+ * 			문장들
+ * 		  }else if(조건식_2){
+ * 			문장들
+ * 		  }else if(조건식_3){
+ * 			문장들
+ * 		  }
+ * 		  ......
+ * 
+ * */
+
+public class Exam14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+	}
+
+}

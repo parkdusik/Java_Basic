@@ -1,0 +1,21 @@
+package ch04.function;
+/**
+ * @날짜:2025. 8. 22.
+ * @작성자:박두식
+ * @설명: 변수 종류
+ * 		-static: 변수
+ * 
+ */
+
+public class Exam60 {
+
+	public static void main(String[] args) {
+		sub(10);
+		sub(20);
+		sub(30);
+	}
+	public static void sub(int x) { //x=20
+		System.out.println(++count);//1
+		System.out.println(x);//20
+	}
+}

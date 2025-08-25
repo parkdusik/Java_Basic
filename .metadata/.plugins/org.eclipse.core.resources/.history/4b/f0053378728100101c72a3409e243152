@@ -1,0 +1,23 @@
+package ch05.object;
+
+/**
+ * @날짜:2025. 8. 25.
+ * @작성자:박두식
+ * @설명:생성자
+ */
+class testA{
+	
+}
+
+class testB{
+	
+}
+
+
+public class Exam70 { //실행 클래스만 public =>1개의 Java파일에 여러개의 클래스를 사용할때.
+
+	public static void main(String[] args) {
+
+	}
+
+}

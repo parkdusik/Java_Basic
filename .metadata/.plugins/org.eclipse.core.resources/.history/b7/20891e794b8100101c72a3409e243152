@@ -1,0 +1,23 @@
+package ch05.object;
+
+public class Sung {
+	//속성
+	public String name;
+	public int kor;
+	public int eng;
+	public int mat;
+	
+	//함수
+	public void total() {
+		int tot=kor+eng+mat;
+	}
+	
+	
+	
+	
+	//a.name=펭수
+	//a.kor=70
+	//a.eng=80
+	//a.mat=77
+
+}

@@ -1,0 +1,11 @@
+package ch05.object;
+
+public class MyData {
+	private int x;
+	private int y;
+
+	public void setData(int a, int b) {
+		x=a;
+		y=b;
+	}
+}

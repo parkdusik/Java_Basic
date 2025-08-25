@@ -1,0 +1,10 @@
+package ch05.object;
+
+public class Exam62  {
+	public static void main(String[] args) {
+		Su a=new Su();
+		a.x=10;
+		a.y=20;
+		System.out.println(a.x+"\t"+a.y);
+	}
+}

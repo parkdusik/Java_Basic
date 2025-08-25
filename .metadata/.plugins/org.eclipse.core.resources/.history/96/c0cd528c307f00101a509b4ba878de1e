@@ -1,0 +1,12 @@
+package ch03.quiz_array;
+
+public class ch02_Quiz_06반복문문제_test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int [] array;
+		array= {1,2,3,};
+	}
+
+}

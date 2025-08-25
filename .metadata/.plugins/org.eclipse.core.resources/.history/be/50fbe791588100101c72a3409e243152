@@ -1,0 +1,22 @@
+package ch05.object;
+
+public class Data {
+	public int x;
+	public int y;
+	
+	//setter
+	public void setX(int a) {
+		x=a;
+	}
+
+	public setY(int b) {
+		y=b;
+	}
+	//getter
+
+
+	public int getX() {
+		return x;
+	}
+
+}

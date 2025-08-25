@@ -1,0 +1,48 @@
+package ch05.object;
+
+/**
+ * @날짜:2025. 8. 25.
+ * @작성자:박두식
+ * @설명: 생성자 중복(생성자 오버로딩)
+ */
+
+class TestD{
+	private int x;
+	private int y;
+	
+	//생성자1
+	public TestD() {
+		x=10;
+		y=20;
+	}
+	
+	//생성자2
+	public TestD(int x) {
+		this.x=x;
+		this.y=55;
+		
+	}
+	
+	생성자3
+	public TestD(int x, int y) {
+		this.x=x;
+		this.y=y;
+	}
+	
+	public void disp() {
+		System.out.println(x+"\t"+y);
+	}
+}
+
+public class Exam73 {
+
+	public static void main(String[] args) {
+		TestD a=new TestD();
+		a.disp();
+		TestD b=new TestD(44);
+		b.disp();
+		TestD c=new TestD(1, 2);
+		c.disp();
+	}
+
+}

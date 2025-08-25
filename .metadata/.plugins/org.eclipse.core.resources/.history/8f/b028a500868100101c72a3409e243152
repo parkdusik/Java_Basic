@@ -1,0 +1,13 @@
+package ch05.object;
+
+
+
+/**
+ * @날짜:2025. 8. 25.
+ * @작성자:박두식
+ * @설명: 생성자 호출
+ */
+public class Exam75 {
+	private int x, y, z;
+	private int a;
+}

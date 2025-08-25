@@ -1,0 +1,13 @@
+package ch05.object;
+
+public class Pay {
+	public String name;
+	public int bongbong;
+	public int tex;
+	public int silsu;
+	
+	//name=n=왕눈이, bongbong=b=20000000
+	public void input(String n, int b) {
+		name=n;
+	}
+}

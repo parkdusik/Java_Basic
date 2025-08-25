@@ -1,0 +1,22 @@
+package ch02.quiz_if;
+
+public class ch02_Quiz_04반복문문제_08 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int sum=0;
+		int num=0;
+		int mt3=0;
+		
+		for(int i=1; i<=100; i++) {
+			num=i;
+			if(num%3==0) {
+				mt3=num;
+				sum+=mt3;
+			}
+		}
+		System.out.println(sum);
+	}
+
+}

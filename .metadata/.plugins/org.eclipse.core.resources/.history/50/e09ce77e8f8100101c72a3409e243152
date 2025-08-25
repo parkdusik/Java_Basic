@@ -1,0 +1,40 @@
+package ch04.quiz_function;
+/*
+ 12. 다음 메인 함수와 출력 값을 보고 프로그램을 완성하시오. (Call By Name)
+ */
+public class ch04_Quiz_07함수문제_12 {
+	public static void main(String[] args) {
+		outAtoZ();
+		System.out.println();
+		out1to10();
+		System.out.println();
+		sum1to10();
+		
+		
+	
+		
+	}
+	
+	
+	public static void outAtoZ() {
+		char eng ='A';
+		for(int i=0; i<26; i++) {
+			System.out.print((char)(eng++));
+		}
+	}
+	
+	public static void out1to10() {
+		for(int i=1; i<=10;i++) {
+			System.out.print(i);
+		}
+	}
+	
+	public static void sum1to10() {
+		int sum=0;
+		for(int i=1; i<=10;i++) {
+			sum+=i;
+			System.out.println(sum);
+		}
+	}
+	
+}

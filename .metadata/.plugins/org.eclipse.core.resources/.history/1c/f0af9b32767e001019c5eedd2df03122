@@ -1,0 +1,30 @@
+package ch02.quiz_if;
+/*
+ 12. 10개의 정수를 입력 받아서 양수와 음수의 개수를 구하는 프로그램을 작성하세요. (for문)
+ */
+
+import java.util.Scanner;
+
+public class ch02_Quiz_05제어문문제_12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("10개의 정수를 입력 받아"+"\n"+"양수와 음수의 개수를 구하는 프로그램 입니다.");
+		
+		int yang=0;
+		
+		for(int i=0; i<=10;i++) {
+			System.out.println("수를 입력하세요."+"\t"+"입력 : ");
+			int num= sc.nextInt();
+			
+			if(num>=0) {
+				
+			}
+		};
+		
+		
+		sc.close();
+	}
+}

@@ -1,0 +1,46 @@
+package ch03.array;
+
+/**
+ * @날짜:2025. 8. 21.
+ * @작성자:박두식
+ * @설명:배열
+ * 			1차원, 2차원, 다차원
+ * 			변수는 한개의 데이터만 저장하지만 배열은 같은 타입의 데이터를 연속된 공간에 저장
+ * 			각 데이터의 인덱스를 부여해 놓은 자료구조
+ * 
+ * 			다차원배열
+ */
+
+import java.util.Scanner;
+
+
+public class Exam44 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc=new Scanner(System.in);
+		
+		int[][] array=new int[3][];
+		array[0]=new int[3];
+		array[1]=new int[2];
+		array[2]=new int[4];
+		
+		for(int i=0;i<array.length;i++) {
+			for(int j=0;j<array[i].length;j++) {
+				System.out.println("수입력");
+				array[i][j]=sc.nextInt();
+			}
+			System.out.println();
+		}
+		
+		for(int i=0;i<array.length;i++) {
+			for(int j=0;j<array[i].length;j++) {
+				System.out.println(array[i][j]);
+			}
+			System.out.println();
+		}
+		
+		sc.close();
+	}
+}

@@ -1,0 +1,29 @@
+package ch02.quiz_if;
+
+public class ch02_Quiz_04반복문문제_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int x=0;
+		int y=0;
+		int result=0;
+		
+		for(int i=1; i<=5; i++) {
+			if(i%2==1) {
+				x=i;
+			}
+		}
+		
+		for(int j=0; j<=2; j++) {
+			y=j;
+		}
+		
+		result = 2x+4y=10;
+		
+		
+		
+		System.out.println(x);
+	}
+
+}

@@ -1,0 +1,16 @@
+package ch05.object;
+
+public class Sub {
+	public String id;
+	public String pwd;
+	public int age;
+	public String addr;
+	public String phone;
+	
+	public void setId(String i) {
+		id=i;
+	}
+	public Sting get Id() {
+		return idl
+	}
+}

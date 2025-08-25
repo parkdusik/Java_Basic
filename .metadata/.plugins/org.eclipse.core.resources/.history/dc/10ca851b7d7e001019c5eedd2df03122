@@ -1,0 +1,28 @@
+package ch02.quiz_if;
+/*
+14. 369게임의 일부를 작성해보자. 1~99까지의 정수를 입력받고 수에 3,6,9중 하나가 있는
+경우에는 “박수짝”, 두 개 있는 경우는 “박수 짝짝”, 하나도 없으면 “박수 없음”을 출력하는
+프로그램을 작성하라. 예를 들면, 13인 경우 “박수짝”, 36인 경우 “박수짝짝”, 5인 경우 “박수없음”
+을 출력하면 된다.
+ */
+
+import java.util.Scanner;
+
+public class ch02_Quiz_05제어문문제_14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	Scanner sc=new Scanner(System.in);
+	
+	System.out.println("369계산기입니다."+"\n"+"박수를 칠 타이밍과 횟수를 알고 싶다면."+"\n"+"1~99까지의 숫자를 입력해주세요."+"\n"+"\n"+"입력 : ");
+	int clap=sc.nextInt();
+	
+	if(clap%3==0) {
+		System.out.println("박수 짝");
+	}
+	
+
+	sc.close();
+	}
+}

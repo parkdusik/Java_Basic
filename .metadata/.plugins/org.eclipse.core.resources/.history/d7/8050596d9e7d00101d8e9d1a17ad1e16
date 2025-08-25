@@ -1,0 +1,25 @@
+package ch02.quiz_if;
+
+public class ch02_Quiz_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		char gread='B';
+		String level="회원등급";
+		
+		//프로그램 작성
+		
+		if(greed == 'A' || greed == 'a') {
+			level="우수회원";
+		}else if (greed == 'B' || greed ==  'b') {
+			level="정회원";
+		}else if (greed == 'C' || greed ==  'c') {
+			level="일반회원";
+		}else{
+			level="손님";
+		}
+		System.out.println(level+"입니다.");
+	}
+
+}

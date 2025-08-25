@@ -1,0 +1,32 @@
+package ch02.quiz_if;
+
+public class ch02_Quiz_03조건문문제_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String position="과장";
+		int salary=0;
+		
+		
+		switch(position) {
+		case "부장":
+			salary = 700;
+			break;
+		case "과장":
+			salary= 500;
+			break;
+			
+		case "대리":
+			salary= 300;
+			break;
+		case "사원":
+			salary= 200;
+			break;
+		}
+		
+		System.out.println(salary+"만원");
+		
+	}
+
+}

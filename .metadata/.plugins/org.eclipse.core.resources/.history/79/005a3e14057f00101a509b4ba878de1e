@@ -1,0 +1,20 @@
+package ch04.function;
+/**
+ * @날짜:2025. 8. 22.
+ * @작성자:박두식
+ * @설명: 함수 - 배열 사용
+ * 
+ */
+
+
+public class Exam54 {
+
+	public static void main(String[] args) {
+	
+		int[] a=new int[] {10, 20, 30, 40, 50};
+		sub1(a);
+		}
+	public static int sub1(int[] a) {
+		System.out.print(a[i]+"\t");
+	}
+}

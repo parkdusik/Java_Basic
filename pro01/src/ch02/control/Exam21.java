@@ -1,0 +1,15 @@
+package ch02.control;
+/*
+ * 제어문 - 조건문(if, switch ~case) / 반복문(for, while, do~while)
+ * 		- 조건문 Switch ~case
+ * */
+
+public class Exam21 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//작성 안함 git Exam21 참조
+	}
+
+}

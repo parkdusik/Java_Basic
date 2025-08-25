@@ -1,0 +1,25 @@
+package ch04.quiz_function;
+/*
+ 13 . 다음 메인 함수와 출력 값을 보고 프로그램을 완성하시오. (Call By Value)
+ */
+public class ch04_Quiz_07함수문제_13 {
+	public static void main(String[] args) {
+		outChar('A');
+		outDec(32767);
+		outFloat(98.54f);
+	}
+	
+	
+	public static void outChar (char eng) {
+		System.out.println(eng);
+	}
+	
+	public static void outDec(int num) {
+		System.out.println(num);
+	}
+	
+	public static void outFloat(float num) {
+		System.out.println(num);
+	}
+	
+}

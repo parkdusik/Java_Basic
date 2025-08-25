@@ -1,0 +1,25 @@
+package ch04.function;
+
+/**
+ * @날짜:2025. 8. 22.
+ * @작성자:박두식
+ * @설명: 함수 = call by Value
+ * 			함수 : 중복성을 없애고, 가독성이 높은 것이 중요!
+ * 
+ */
+
+import java.util.Scanner;
+
+public class Exam51 {
+
+	public static void main(String[] args) {//시작함수
+		input();
+	}
+	public static void input() {//데이터를 입력받는 함수
+		Scanner sc=new Scanner(System.in);
+	}
+	public static void ouput() {//출력함수
+		
+	}
+	
+}

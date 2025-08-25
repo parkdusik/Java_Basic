@@ -1,0 +1,14 @@
+package ch01.quiz;
+
+public class quiz26 {
+	public static void main(String[] args) {
+		
+		char a = 0
+		
+		
+		String s= '0'+9+"Hello";
+		System.out.println(s);
+		
+		
+	}
+}

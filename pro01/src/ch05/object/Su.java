@@ -1,0 +1,15 @@
+package ch05.object;
+
+/**
+ * @날짜:2025. 8. 22.
+ * @작성자:박두식
+ * @설명:
+ */
+class Su { //클래스
+	public int x; //필드, 멤버변수
+	public int y;
+	public int c;
+}
+
+//a.x, b.x=0;
+//a.y, b.y=0;

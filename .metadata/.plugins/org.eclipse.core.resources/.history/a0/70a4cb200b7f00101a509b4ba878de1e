@@ -1,0 +1,14 @@
+package ch04.function;
+/**
+ * @날짜:2025. 8. 22.
+ * @작성자:박두식
+ * @설명: 함수 - 함수 중복
+ * 
+ */
+
+public class Exam57 {
+
+	public static void main(String[] args) {
+		
+	}
+}
