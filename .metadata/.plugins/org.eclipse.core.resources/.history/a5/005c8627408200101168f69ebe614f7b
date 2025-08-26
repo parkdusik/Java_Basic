@@ -1,0 +1,56 @@
+package ch06.inheritance;
+
+/**
+ * @날짜:2025. 8. 26.
+ * @작성자:박두식
+ * @설명:클래스 - 상속
+ */
+
+class TV{
+	protected boolean power; //전원 상태
+	protected int channel;
+	
+	public void power(Boolean power) {
+		this.power=power;
+	}
+	
+	public void chanelUp() {
+		++channel;
+	}
+	
+	public void chanelDown() {
+		--channel;
+	}
+}
+
+class CaptionTV extends TV{
+	private boolean caption;
+	
+	public CaptionTV() {}
+	
+	public CaptionTV(boolean power, int channel, boolean caption) {
+		super.power=power;
+		super.channel=channel;
+		this.caption=caption;
+	}
+	
+	public void dispay(String text) {
+		if(power&&caption) {
+			System.out.println(channel+"\t"+text);
+		}else {
+			System.out.println("power 또는 caption을 켜세요.");
+		}
+}
+
+public class Exam84 {
+
+	public static void main(String[] args) {}
+		CaptionTV cy=new CaptionTV(true, 10, true);
+		ct.channelUp();
+		ct.display("캡션을 보여 줍니다.");
+		
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package ch06.inheritance;
+
+class Apatents{
+	private int x,y;
+}
+
+class Ason extends Apatents{
+	private int a,b;
+}
+
+public class Exam82 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

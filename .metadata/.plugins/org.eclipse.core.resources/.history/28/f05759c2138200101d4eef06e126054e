@@ -1,0 +1,31 @@
+package ch05.object;
+
+/**
+ * @날짜:2025. 8. 26.
+ * @작성자:박두식
+ * @설명:class-배열
+ */
+
+class TestE{
+	private int x;
+	private int y;
+	
+	public TestE(int x, int y) {
+		this.x=x;
+		this.y=y;
+	}
+	
+	public void disp() {
+		System.out.println(x+"\t"+y);
+	}
+}
+
+
+public class Exam76 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

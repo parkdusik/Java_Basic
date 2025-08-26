@@ -1,0 +1,22 @@
+package ch05.quiz_object;
+
+class SutdaCard {
+	private int num;
+	private boolean isKwang;
+	
+	public SutdaCard(int num) {
+		this.num=num;
+	}
+	
+	public void Kwang(String Kwang) {
+		
+	}
+	
+}
+
+public class ch05_Quiz_08클래스문제_01_08 {
+	public static void main(String[] args) {
+		
+		
+	}
+}

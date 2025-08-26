@@ -11,6 +11,7 @@ class TestY{
 	private int x, y, z;
 	private int a;
 	
+	
 	public TestY() {
 		x=100;
 		y=200;

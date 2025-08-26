@@ -1,0 +1,31 @@
+package ch05.object;
+
+class TestH{
+	public int x;
+	public static int y;
+	
+	public void aa() {};
+	public static void bb() {};
+	
+	public void disp() {
+		System.out.println(x);
+		System.out.println(y);
+		
+		aa();
+		bb();
+	}
+	
+	public static void print() {
+//		System.out.println(x); Error
+		System.err.println(y);
+	}
+}
+
+public class Exam79 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

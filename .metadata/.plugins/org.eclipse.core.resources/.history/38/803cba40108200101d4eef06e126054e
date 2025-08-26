@@ -1,0 +1,27 @@
+package Quiz_function;
+
+/*
+15. 함수를 이용하여 숫자를 입력한 만큼 별을 출력하는 프로그램을 작성하세요. (Call By Value)
+ */
+
+import java.util.Scanner;
+
+public class ch04_Quiz_07함수문제_15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("별 수를 입력하세요 : ");
+		int num=sc.nextInt();
+		subStart(num);
+		
+		sc.close();
+	}
+	
+	public static void subStart(int num) {
+		for(int i=0; i<num;i++) {
+		System.out.print('*');
+		}
+	}
+}

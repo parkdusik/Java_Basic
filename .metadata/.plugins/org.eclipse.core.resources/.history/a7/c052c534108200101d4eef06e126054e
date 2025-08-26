@@ -1,0 +1,32 @@
+package Quiz_function;
+
+/*
+20. output() 함수를 호출해서 매개 값을 출력합니다. output() 함수의 매개값으로 int, boolean,
+double, String값을 줄 수 있습니다
+ */
+
+public class ch04_Quiz_07함수문제_20 {
+
+	public static void main(String[] args) {
+		output(10);
+		output(true);
+		output(5.7);
+		output("홍길동");
+	}
+	
+	public static void output(int output) {
+		System.out.println(output);
+	}
+	
+	public static void output(boolean output) {
+		System.out.println(output);
+	}
+	
+	public static void output(double output) {
+		System.out.println(output);
+	}
+	
+	public static void output(String output) {
+		System.out.println(output);
+	}
+}

@@ -1,0 +1,24 @@
+package ch06.inheritance;
+
+class Aparents{
+	protected int x,y;
+}
+
+class Ason extends Aparents{
+	private int a,b;
+	
+	public void disp() {
+		System.out.println(x);
+		System.out.println(this.x);
+		System.out.println(super.x);
+	}
+}
+
+public class Exam82 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

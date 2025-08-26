@@ -1,0 +1,40 @@
+package ch05.quiz_object;
+/*
+9. 다음과 같은 멤버 변수를 갖는 SutdaCard 클래스를 정의 하세요
+타입 필드이름 설명
+문자열 name 학생이름
+정수 ban 반
+정수 no 번호
+정수 kor 국어점수
+정수 eng 영어점수
+정수 math 수학점수
+
+ */
+class SutdaCard{
+	private String name;
+	private int ban;
+	private int no;
+	private int kor;
+	private int eng;
+	private int math;
+	
+	public SutdaCard() {}
+	public SutdaCard(String name, int ban, int no, int kor, int eng, int math) {
+		this.name=name;
+		this.ban=ban;
+		this.no=no;
+		this.kor=kor;
+		this.eng=eng;
+		this.math=math;		
+	}
+	public void disp() {
+		System.out.println(name+ban+no+kor+eng+math);
+	}
+}
+
+
+public class ch05_Quiz_08클래스문제_01_09 {
+	public static void main(String[] args) {
+		SutdaCard a=new SutdaCard("박두식", 1, 12, 60, 70, 80);
+	}
+}

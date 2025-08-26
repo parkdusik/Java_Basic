@@ -1,0 +1,66 @@
+package ch05.quiz_object;
+/*
+10. 다음 내용을 보시고 Member 클래스를 선언하세요.
+① 데이타
+타입 필드이름 설명
+문자열 name 이름
+문자열 id 아이디
+문자열 password 패스워드
+정수 age 나이
+② 동작
+리턴타입 메소드이름 매개변수(타입)
+boolean login id(String), password(String)
+void logout id(String)
+▣ login()함수는 매개값 id가 "hong" password가 "1234"일 경우에만 true로 리턴하고 그외
+ 값은 false를 리턴한다.
+▣ logout()메소드의 내용은 "hong 로그아웃되었습니다"가 출력되도록 하세요.
+
+ */
+
+class Member{
+	private String name;
+	private String id;
+	private String password;
+	private int age;
+	
+	public Member() {}
+	
+	public Member(String name, String id, String password, int age) {
+		this.name=name;
+		this.id=id;
+		this.password=password;
+		this.age=age;
+	}
+	
+	public boolean login(String id, String password) {
+		boolean login=false;
+		if(id=="hong" && password=="1234") {
+			login=true;
+		}else {
+			login=false;
+		}	
+		return login;
+	}
+	
+	public void logout(String id) {
+		System.out.println("hong 로그아웃 되셨습니다.");
+	}
+	
+	public void disp() {
+		System.out.println(name+id+password+age);
+	}
+	
+	
+}
+
+
+
+
+public class ch05_Quiz_08클래스문제_01_10 {
+	public static void main(String[] args) {
+		
+		Member a=new Member("hong", "hong", "1234", 12 );
+		a.logout("hongs");
+		a.disp();
+	}
+}

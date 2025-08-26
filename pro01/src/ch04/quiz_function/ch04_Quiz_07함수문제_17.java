@@ -1,0 +1,19 @@
+package ch04.quiz_function;
+
+/*
+17. 다음을 보시고 프로그램을 완성하세요.
+ */
+
+public class ch04_Quiz_07함수문제_17 {
+
+	public static void main(String[] args) {
+			String[] str=new String[] {"kim", "park", "lee"};
+			sub(str);
+	}
+	
+	public static void sub(String[] str) {
+		for(int i=0; i<str.length; i++) {
+			System.out.print(str[i]+"\t");
+		}
+	}
+}

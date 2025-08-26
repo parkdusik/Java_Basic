@@ -1,0 +1,21 @@
+package ch05.object;
+
+/**
+ * @날짜:2025. 8. 26.
+ * @작성자:박두식
+ * @설명: final 변수, 함수
+ */
+
+class TestK{
+	public final double PI=3.141592;
+	public static final int VALUE=20;
+}
+
+public class Exam80 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	}
+}

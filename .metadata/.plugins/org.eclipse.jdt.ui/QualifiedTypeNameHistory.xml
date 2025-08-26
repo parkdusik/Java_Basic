@@ -8,4 +8,17 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="ch05.object.BirthdayB"/>
     <fullyQualifiedTypeName name="ch05.object.TestC"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="ch06.inheritance.BusinessMan"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="ch06.inheritance.CaptionTV"/>
+    <fullyQualifiedTypeName name="ch06.inheritance.BParents"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.debugger.bsd.aarch64.BsdAARCH64CFrame"/>
+    <fullyQualifiedTypeName name="ch06.inheritance.BSon"/>
+    <fullyQualifiedTypeName name="ch06.inheritance.DParents"/>
+    <fullyQualifiedTypeName name="sun.print.PSPrinterJob.EPSPrinter"/>
+    <fullyQualifiedTypeName name="ch06.inheritance.EParents"/>
+    <fullyQualifiedTypeName name="ch05.quiz_object.SutaCard"/>
+    <fullyQualifiedTypeName name="ch05.quiz_object.SutdaCard"/>
 </qualifiedTypeNameHistroy>

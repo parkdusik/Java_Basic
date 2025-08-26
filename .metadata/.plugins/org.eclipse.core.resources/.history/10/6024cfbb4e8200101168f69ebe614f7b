@@ -1,0 +1,33 @@
+package ch05.quiz_object;
+
+class SutdaCard {
+	private int num;
+	private boolean isKwang;
+	
+	public SutdaCard() {}
+	
+	public SutdaCard(int num) {
+		this.num=num;
+	}
+	
+	public void Kwang(String Kwang) {
+		if(Kwang =="광") {
+			this.isKwang =true;
+		}else {
+			this.isKwang=false;
+		}
+	}
+	
+	public void disp() {
+		System.out.println(this.num);
+		System.out.println(this.isKwang);
+	}
+	
+}
+
+public class ch05_Quiz_08클래스문제_01_08 {
+	public static void main(String[] args) {
+		SutdaCard a=new SutdaCard(2);
+		a.Kwang("광");
+	}
+}

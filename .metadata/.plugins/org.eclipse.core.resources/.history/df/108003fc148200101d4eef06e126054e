@@ -1,0 +1,26 @@
+package ch05.object;
+
+/**
+ * @날짜:2025. 8. 26.
+ * @작성자:박두식
+ * @설명: class-배열
+ */
+class TestF{
+	private int x; //정수
+	private float y; //실수
+	private String z; //문자열(클래스) 객체
+	private int[] a;
+	
+	public TestE(int x, inty, String z, int[] a) {
+		
+	}
+}
+
+public class Exam77 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

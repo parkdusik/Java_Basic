@@ -1,0 +1,24 @@
+package ch05.object;
+
+/**
+ * @날짜:2025. 8. 26.
+ * @작성자:박두식
+ * @설명: static 변수, static 함수
+ */
+
+class TestG{
+	
+}
+
+public class Exam78 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x=10;//stack영역
+		
+		//stack /heap영역
+		TestG a=new TestG();
+	}
+
+}

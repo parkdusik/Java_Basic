@@ -1,0 +1,38 @@
+package ch04.quiz_function;
+/*
+ 18. 어떤 수 두 개를 입력 받아 max 함수를 생성하고 호출하세요. 
+ max 함수는 두 개의 숫자 중 최대값을 찾는 함수 입니다. (Call By Value)
+ */
+import java.util.Scanner;
+
+
+public class ch04_Quiz_07함수문제_18 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+	
+		int[] nums = new int[2];
+		
+		System.out.println("수를 입력하세요.");
+		nums[0]=sc.nextInt();
+		System.out.println("수를 입력하세요.");
+		nums[1]=sc.nextInt();
+		
+		
+		max(nums);
+		
+	
+	sc.close();
+	}
+	
+	public static void max(int[] nums) {
+		if(nums[0]>nums[1]) {
+			System.out.println(nums[0]+"가 큽니다.");
+		}else if (nums[0]<nums[1]) {
+			System.out.println(nums[1]+"가 큽니다.");
+		}else {
+			System.out.println("두 수의 크기가 같습니다.");
+		}
+	}
+	
+}

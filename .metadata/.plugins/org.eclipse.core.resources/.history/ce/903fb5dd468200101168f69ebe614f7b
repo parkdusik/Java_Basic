@@ -1,0 +1,23 @@
+package ch06.inheritance;
+
+/**
+ * @날짜:2025. 8. 26.
+ * @작성자:박두식
+ * @설명: 상속 - 함수 재정의(Overriding)
+ */
+
+class DParents{
+	public void aa() {}
+	public void bb() {}
+	public void cc() {}
+	public void dd() {}
+	
+}
+public class Exam86 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

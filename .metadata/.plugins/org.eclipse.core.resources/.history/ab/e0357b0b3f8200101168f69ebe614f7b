@@ -1,0 +1,29 @@
+package ch06.inheritance;
+
+/**
+ * @날짜:2025. 8. 26.
+ * @작성자:박두식
+ * @설명:클래스 - 상속
+ */
+
+class TV{
+	protected boolean power; //전원 상태
+	protected int channel;
+	
+	public void power(bloean power) {
+		this.power=power;
+	}
+	
+	public void chanerUp() {
+		
+	}
+}
+
+public class Exam84 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

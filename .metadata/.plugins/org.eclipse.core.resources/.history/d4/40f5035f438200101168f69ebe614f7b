@@ -1,0 +1,20 @@
+package ch06.inheritance;
+/**
+ * @날짜:2025. 8. 26.
+ * @작성자:박두식
+ * @설명:생성자 - 상속
+ */
+
+class Bparents{
+	protected int x;
+	portected int y;
+}
+
+public class Exam85 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

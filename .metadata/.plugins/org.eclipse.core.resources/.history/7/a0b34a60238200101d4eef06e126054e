@@ -1,0 +1,51 @@
+package ch05.object;
+
+/**
+ * @날짜:2025. 8. 26.
+ * @작성자:박두식
+ * @설명: static 변수, static 함수
+ */
+
+class TestG{
+	public String name; //public은 this로 접근 가능 private은 접근 불가.
+	public int don;
+	public static float iyul;
+	
+	public static void setIyul(float iyul) {
+		TestG.iyul=iyul;
+	}
+	
+	public TestG() {};
+	
+	public TestG(String name, int don, float iyul) {
+		this.name=name;
+		this.don=don;
+		TestG.iyul=iyul;
+	}
+	
+	public void disp() {
+		System.out.println(name);
+		System.out.println(don);
+		System.out.println(iyul);
+	}
+	
+}
+
+public class Exam78 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//stack /heap영역
+		TestG.setIyul(0.07f);
+		TestG a=new TestG("kim", 10000, 0.07f);
+		a.disp();
+		
+		a.name="홍길동";
+		a.don=20000;
+		TestG.iyul=22.5f; //클래스는 클래스명으로 접근!
+		
+		doulbe x-Math.PI;
+		
+	}
+
+}
