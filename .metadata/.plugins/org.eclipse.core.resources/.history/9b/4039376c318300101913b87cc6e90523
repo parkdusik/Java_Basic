@@ -1,0 +1,18 @@
+package ch05.quiz_object;
+
+/*
+26. 아래 실행 결과와 같이 출력하는 다음 main()을 가진 Phone 클래스를 작성하시오.
+*/
+
+
+
+
+public class ch05_Quiz_08클래스문제_02_26 {
+	public static void main(String[] args) {
+		Phone kim=new Phone();
+		Phone lee=new Phone();
+		System.out.println(kim.getName() + "\t" + kim.getTel());
+		System.out.println(lee.getName() + "\t" + lee.getTel());
+
+	}
+}

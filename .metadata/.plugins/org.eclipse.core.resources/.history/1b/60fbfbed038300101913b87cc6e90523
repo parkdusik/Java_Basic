@@ -1,0 +1,24 @@
+package ch06.inheritance;
+
+/**
+ * @날짜:2025. 8. 27.
+ * @작성자:박두식
+ * @설명: 상속 - stratic 변수, 함수/final 변수, 함수
+ */
+class HParents{
+	public static int x=10;
+	public static final int y=20;
+}
+
+class HSon extends HParents{
+	public static int su=77;
+	public static final int VALUE
+}
+
+public class Exam93 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package ch06.inheritance;
+
+/**
+ * @날짜:2025. 8. 27.
+ * @작성자:박두식
+ * @설명:추상클래스 (추상함수)
+ * 		함수재정의>>추상클래스>>인터페이스
+ */
+
+class Anial{
+	protected String kind;
+	public void breathe() {
+		System.out.println("숨을 쉽니다.");
+	}
+}
+public class Exam92 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

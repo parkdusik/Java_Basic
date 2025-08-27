@@ -1,0 +1,13 @@
+package aa;
+
+/**
+ * @날짜:2025. 8. 27.
+ * @작성자:박두식
+ * @설명:접근제한자
+ */
+public class AA {
+	private int x=10;
+	protected int y=20;
+	public int z=30;
+	int su=40; //default(접근 제한자 생략시);
+}

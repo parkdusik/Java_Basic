@@ -1,0 +1,28 @@
+package ch06.inheritance;
+/**
+ * @날짜:2025. 8. 27.
+ * @작성자:박두식
+ * @설명: 상속
+ * 		-extends:확장성, 중복제거
+ * 		-protected: 접근제한자.
+ * 		-Super,Super();
+ * 		-함수재정의:상속받아서 함수를 다 재정의>>자식입장
+ * 				자식을 제어(컨트롤)할 수 있다>>부모입장
+ * 				(업캐스팅, 다운캐스팅)
+ */		
+
+class person{
+	protected String massage;
+	
+	public void setData(String massage) {
+		
+	}
+}
+public class Exam90 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

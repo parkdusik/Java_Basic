@@ -1,0 +1,23 @@
+package ch07.interfaceA;
+
+public class CPhone implements Phone {
+
+	@Override
+	public void callSend() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void canData() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void tvRemote() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

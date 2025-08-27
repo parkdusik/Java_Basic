@@ -1,0 +1,14 @@
+package ch06.robotAbstract;
+
+public class RobotMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Robot[] robotArray=new Robot[3];
+		robotArray[0]=new SuperRobot("SuperRobot");
+		robotArray[1]=new StandardRobot("StanderdRobot");
+		robotArray[2]=new LowRobot("LowRobot");
+	
+	}
+}

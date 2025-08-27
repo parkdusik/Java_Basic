@@ -1,0 +1,11 @@
+package bb;
+
+import aa.AA;
+
+public class CC {
+	public void disp() {
+		System.out.println(x);
+		System.out.println(y);
+	}
+
+}

@@ -1,0 +1,13 @@
+package aa;
+
+/**
+ * @날짜:2025. 8. 27.
+ * @작성자:박두식
+ * @설명:접근제한자
+ */
+public class AA {
+	private int x;
+	protected int y;
+	public int z;
+	int su;
+}

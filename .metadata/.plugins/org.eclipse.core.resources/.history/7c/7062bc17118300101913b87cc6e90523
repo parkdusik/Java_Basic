@@ -1,0 +1,11 @@
+package ch07.interfaceA;
+
+public class PhoneMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Phone[] phone=new Phone[3];
+	}
+
+}

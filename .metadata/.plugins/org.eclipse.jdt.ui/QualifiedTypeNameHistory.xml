@@ -4,8 +4,6 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="ch05.object.Pay"/>
     <fullyQualifiedTypeName name="ch05.object.MyData"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="ch05.object.BirthdayB"/>
     <fullyQualifiedTypeName name="ch05.object.TestC"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
@@ -21,4 +19,21 @@
     <fullyQualifiedTypeName name="ch06.inheritance.EParents"/>
     <fullyQualifiedTypeName name="ch05.quiz_object.SutaCard"/>
     <fullyQualifiedTypeName name="ch05.quiz_object.SutdaCard"/>
+    <fullyQualifiedTypeName name="ch06.inheritance.SupersonicAirplane"/>
+    <fullyQualifiedTypeName name="sun.security.x509.IPAddressName"/>
+    <fullyQualifiedTypeName name="ch06.inheritance.ISon"/>
+    <fullyQualifiedTypeName name="ch06.inheritance.IParents"/>
+    <fullyQualifiedTypeName name="ch06.inheritance.IDaughter"/>
+    <fullyQualifiedTypeName name="ch06.inheritance.Animal"/>
+    <fullyQualifiedTypeName name="java.time.chrono.AbstractChronology"/>
+    <fullyQualifiedTypeName name="ch06.robotAbstract.Robot"/>
+    <fullyQualifiedTypeName name="ch06.robotAbstract.StandardRobot"/>
+    <fullyQualifiedTypeName name="ch06.inheritance.HParents"/>
+    <fullyQualifiedTypeName name="ch06.inheritance.HSon"/>
+    <fullyQualifiedTypeName name="java.lang.Deprecated"/>
+    <fullyQualifiedTypeName name="ch07.interfaceA.Phone"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="ch07.interfaceA.APhone"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

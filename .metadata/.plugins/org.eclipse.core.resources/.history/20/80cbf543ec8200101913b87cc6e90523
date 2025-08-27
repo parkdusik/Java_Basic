@@ -1,0 +1,14 @@
+package ch06.inheritance;
+/**
+ * @날짜:2025. 8. 27.
+ * @작성자:박두식
+ * @설명:함수재정의>>추상클래스, 추상함수>>interface
+ */
+public class Exam91 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

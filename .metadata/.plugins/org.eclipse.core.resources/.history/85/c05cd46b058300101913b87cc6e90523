@@ -1,0 +1,44 @@
+package ch06.inheritance;
+
+/**
+ * @날짜:2025. 8. 27.
+ * @작성자:박두식
+ * @설명: 상속 - static 변수, 함수/final 변수, 함수
+ */
+class HParents{
+	public static int x=10;
+	public static final int Y=20;
+	
+	public static void aa() {}
+	public static final void bb() {}
+	public final void cc() {}
+}
+
+class HSon extends HParents{
+	public static int su=77;
+	public static final int VALUE=88;
+	
+	public void xx() {
+		super cc();
+	}
+}
+
+public class Exam93 {
+	public static void main(String[] args) {
+		System.out.println(HParents.x);
+		System.out.println(HSon.x);
+		System.out.println();
+		
+		System.out.println(HParents.Y);
+		System.out.println(HSon.Y);
+		System.out.println();
+		
+		System.out.println(HSon.su);
+		System.out.println(HSon.VALUE);
+		
+		HParents.aa();
+		HSon.aa();
+		
+		HSon.bb();
+	}
+}

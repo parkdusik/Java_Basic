@@ -1,0 +1,10 @@
+package ch06.robotAbstract;
+
+public class StandardRobot extends Robot {
+	
+	public StandardRobot() {}
+	
+	public StandardRobot(String kind) {
+		
+	}
+}

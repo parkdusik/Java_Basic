@@ -1,0 +1,18 @@
+package ch06.inheritance;
+
+interface XX{
+	public int su==20;//변수, 함수 //변수 static final
+}
+
+class YY implements XX{
+	
+}
+
+public class Exam94 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

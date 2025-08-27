@@ -1,0 +1,10 @@
+package ch07.interfaceA;
+/**
+ * @날짜:2025. 8. 27.
+ * @작성자:박두식
+ * @설명: 상속 - interface
+ * 		A전자의 다양한 스마트폰을 만듭니다. 모델별 스펙은 아래와 같다.
+ */
+public interface phone {
+
+}

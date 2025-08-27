@@ -1,0 +1,16 @@
+package bb;
+
+import aa.AA; //import 삽입시 가져올 수 있음
+
+public class DD {
+
+	public static void main(String[] args) {
+		AA a=new AA(); //패키지가 달라서 못가져옴
+		System.out.println(a.x);
+		System.out.println(a.z);
+		System.out.println(a.y);
+		System.out.println(a.);
+		
+	}
+
+}

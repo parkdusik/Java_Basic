@@ -1,0 +1,15 @@
+package ch06.inheritance;
+
+/**
+ * @날짜:2025. 8. 27.
+ * @작성자:박두식
+ * @설명:함수재정의(Overriding)
+ */
+public class Exam88 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

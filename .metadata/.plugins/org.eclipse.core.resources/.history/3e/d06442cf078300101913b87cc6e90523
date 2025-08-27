@@ -1,0 +1,12 @@
+package bb;
+
+import aa.AA
+
+public class DD {
+
+	public static void main(String[] args) {
+		AA a=new AA(); //패키지가 달라서 못가져옴
+
+	}
+
+}

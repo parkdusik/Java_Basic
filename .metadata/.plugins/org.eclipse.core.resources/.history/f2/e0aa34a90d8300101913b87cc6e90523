@@ -1,0 +1,40 @@
+package ch07.interfaceA;
+
+interface XX{
+	public int su=20;//변수, 함수 //변수 static final
+	
+	public void disp();//추상 함수 (abstract)
+}
+
+class YY implements XX{
+	protected int x;
+	@Override
+	public void disp() {
+		System.out.println("Hi");
+	}
+	
+	public void output() {
+		
+	}
+}
+
+class ZZ extends YY{}
+
+interface Test extends XX{}
+//interface exam implements YY{} 없음
+
+public class Exam94 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			YY y=new YY();
+			y.disp();
+			y.output();
+			
+			XX x=new YY();
+			x.disp();
+			//x.output();
+		
+	}
+
+}

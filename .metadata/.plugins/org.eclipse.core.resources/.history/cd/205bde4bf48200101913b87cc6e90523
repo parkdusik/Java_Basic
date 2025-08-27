@@ -1,0 +1,11 @@
+package ch06.robotAbstract;
+
+/**
+ * @날짜:2025. 8. 27.
+ * @작성자:박두식
+ * @설명: 상속 - 추상클래스
+ */
+public class Robot {
+
+	
+}

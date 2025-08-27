@@ -1,0 +1,44 @@
+package ch05.quiz_object;
+
+/*
+26. 아래 실행 결과와 같이 출력하는 다음 main()을 가진 Phone 클래스를 작성하시오.
+		Phone kim=new Phone();
+		Phone lee=new Phone();
+		System.out.println(kim.getName() + "\t" + kim.getTel());
+		System.out.println(lee.getName() + "\t" + lee.getTel());
+		
+		[클래스 다이어그램]
+		-name: String
+		-tel: String
+		-sc: Scanner
+		<<create>>+Phone()
+		+getName(): String
+		+getTel(): String
+*/
+
+import java.util.Scanner;
+
+class Phone{
+	private String name;
+	private String tel;
+	
+	public Phone() {}
+	public String getName() {
+		
+	}
+	
+	Scanner sc=new Scanner(System.in);
+
+}
+
+
+
+public class ch05_Quiz_08클래스문제_02_26 {
+	public static void main(String[] args) {
+		Phone kim=new Phone();
+		Phone lee=new Phone();
+		System.out.println(kim.getName() + "\t" + kim.getTel());
+		System.out.println(lee.getName() + "\t" + lee.getTel());
+
+	}
+}

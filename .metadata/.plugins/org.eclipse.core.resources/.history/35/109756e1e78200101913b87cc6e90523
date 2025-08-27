@@ -1,0 +1,49 @@
+package ch06.inheritance;
+/**
+ * @날짜:2025. 8. 27.
+ * @작성자:박두식
+ * @설명: 상속
+ * 		-extends:확장성, 중복제거
+ * 		-protected: 접근제한자.
+ * 		-Super,Super();
+ * 		-함수재정의:상속받아서 함수를 다 재정의>>자식입장
+ * 				자식을 제어(컨트롤)할 수 있다>>부모입장
+ * 				(업캐스팅, 다운캐스팅)
+ */		
+
+class Person{
+	protected String massage;
+	
+	public void setData(String massage) {
+		this.massage=massage;
+	}
+	
+	public String getData() {
+		return massage;
+	}
+}
+
+class Student extends Person{
+	public void setData(String masssage) {
+		System.out.println("Sudent setData Method....");
+		System.out.println(massage);
+	}
+}
+public class Exam90 {
+
+	public static void main(String[] args) {
+		//부모클래스
+		Person p=new Person();
+		p.setData("부모입니다.");
+		System.out.println(p.getData());
+		//자식 클래스
+		Student s=new Student();
+		s.setData("자식입니다.");
+		s.getData();
+		
+		//Upcasting : 자식클래스가 부모클래스 타입으로 변환되는 것.
+		Person person=new Student();
+		person.setData("UpCasting");
+	}
+
+}

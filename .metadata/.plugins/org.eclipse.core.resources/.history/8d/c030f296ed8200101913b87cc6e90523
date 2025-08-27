@@ -1,0 +1,31 @@
+package ch06.inheritance;
+
+import sun.security.x509.IPAddressName;
+
+/**
+ * @날짜:2025. 8. 27.
+ * @작성자:박두식
+ * @설명:함수재정의>>추상클래스, 추상함수>>interface
+ */
+
+abstract class IParents{//추상클래스는 추상함수를하나라도 가지고 있으면.
+	protected int x, y;
+	
+	public void msg() {
+		System.out.println("여름이 좋아! 여름 채고!!!");
+	}
+	public abstract void disp();
+}
+
+class ISon extends IParents{
+	
+}
+
+public class Exam91 {
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

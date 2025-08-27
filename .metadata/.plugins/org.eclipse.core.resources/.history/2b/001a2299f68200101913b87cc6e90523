@@ -1,0 +1,17 @@
+package ch06.robotAbstract;
+
+public class LowRobot extends Robot{
+
+	public LowRobot() {}
+	
+	public LowRobot(String kind) {
+		super.kind=kind;
+	}
+	
+	@Override
+	public void actionFly() {
+		System.out.println("날수 없습니다.");
+	}
+	
+
+}

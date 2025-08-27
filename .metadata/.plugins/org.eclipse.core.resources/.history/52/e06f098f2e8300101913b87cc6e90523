@@ -1,0 +1,32 @@
+package ch05.quiz_object;
+
+/*
+24. 다음 main() 보시고 클래스를 작성하세요.
+public class Quiz24 {
+public static void main(String[]
+args){Test t=new Test(10);
+Test e=new Test('A');
+}}
+*/
+class Test{
+	private int t;
+	private char e;
+	
+	public Test(int t) {
+		this.t=t;
+	}
+	
+	public Test(char e) {
+		this.e=e;
+	}
+}
+
+
+
+public class ch05_Quiz_08클래스문제_02_24 {
+	public static void main(String[] args) {
+		Test t=new Test(10);
+		Test e=new Test('A');
+
+	}
+}

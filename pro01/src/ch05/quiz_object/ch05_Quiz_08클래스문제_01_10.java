@@ -54,13 +54,13 @@ class Member{
 }
 
 
-
-
 public class ch05_Quiz_08클래스문제_01_10 {
 	public static void main(String[] args) {
 		
-		Member a=new Member("hong", "hong", "1234", 12 );
-		a.logout("hongs");
-		a.disp();
+		Member m=new Member("hong", "hong", "1234", 12 );
+		boolean check=m.login("hong", "1234");
+		if(check==true){
+			m.logout("hong");
+		}
 	}
 }

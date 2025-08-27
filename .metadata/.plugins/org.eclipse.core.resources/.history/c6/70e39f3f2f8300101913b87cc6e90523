@@ -1,0 +1,30 @@
+package ch05.quiz_object;
+
+/*
+25. 아래 실행 결과와 같이 출력하는 다음 main()을 가진 Song 클래스를 작성하시오.
+Song 클래스는 노래 제목 title 필드, 생성자 getTitle() 메소드로 구성된다.
+*/
+
+class Song{
+	private String title;
+	
+	public void getTitle() {
+		
+	}
+	
+	public Song(String title) {
+		
+	}
+	
+}
+
+
+
+public class ch05_Quiz_08클래스문제_02_25 {
+	public static void main(String[] args) {
+		Song mySong=new Song("Let it go");
+		Song yourSong=new Song("강남스타일");
+		System.out.println("내 노래는 " + mySong.getTitle());
+		System.out.println("너 노래는 " + yourSong.getTitle());
+	}
+}

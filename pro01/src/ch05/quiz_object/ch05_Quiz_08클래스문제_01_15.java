@@ -1,0 +1,45 @@
+package ch05.quiz_object;
+/*
+public class Quiz15 {
+public static void main(String[] args) {
+Printer printer=new Printer();
+printer.println(10);
+printer.println(true);
+printer.println(5.7);
+printer.println("홍길동");
+}
+}
+ */
+
+class Printer {
+//	문제 요구만 따지면 멤버함수는 없어도 댐.
+//	private int num1;
+//	private boolean num2;
+//	private double num3;
+//	private String str;
+	
+	Printer(){}
+	public void println(int num1) {
+		System.out.println(num1);
+	}
+	public void println(boolean num2) {
+		System.out.println(num2);
+	}
+	public void println(double num3) {
+		System.out.println(num3);
+	}
+	public void println(String str) {
+		System.out.println(str);
+	}
+}
+
+
+public class ch05_Quiz_08클래스문제_01_15 {
+	public static void main(String[] args) {
+		Printer printer=new Printer();
+		printer.println(10);
+		printer.println(true);
+		printer.println(5.7);
+		printer.println("홍길동");
+	}
+}

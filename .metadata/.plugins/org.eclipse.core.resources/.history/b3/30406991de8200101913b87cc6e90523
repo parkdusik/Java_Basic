@@ -1,0 +1,47 @@
+package ch06.inheritance;
+
+/**
+ * @날짜:2025. 8. 27.
+ * @작성자:박두식
+ * @설명: 상속
+ * 		-extends:확장성, 중복제거
+ * 		-protected: 접근제한자.
+ * 		-Super,Super();
+ * 		-함수재정의
+ */		
+
+class Shape{
+	public void draw() {
+		System.out.println("Shape");
+	}
+}
+
+class Line extends Shape{
+	public void bb() {}
+	public void draw() {
+		System.out.println("Line");
+	}
+}
+
+class Rect extends Shape{
+	public void cc() {}
+	public void draw() {
+		System.out.println("Line");
+	}
+}
+
+class Cirle extends Shape{
+	public void dd() {}
+	public void draw() {
+		System.out.println("Line");
+	}
+}
+
+public class Exam89 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
