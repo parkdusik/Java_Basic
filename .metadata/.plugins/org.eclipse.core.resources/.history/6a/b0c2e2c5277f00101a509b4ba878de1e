@@ -1,9 +1,0 @@
-package ch05.object;
-
-public class Person {//구현 클래스
-	public String name;
-	public int age;
-	public float ki;
-	
-	//a.name=홍, a.age=23, a.ki=182.2\
-}
